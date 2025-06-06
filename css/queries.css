@@ -1,12 +1,12 @@
 @media(max-width:1000px){
-	.flag{
+	header > img{
   		display: none;
 	}
 	header{
 		Justify-content: center;
 		height: 200px;
 	}
-	.side{
+	main > img{
 		display: none;
 	}
 	main{
