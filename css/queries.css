@@ -1,6 +1,7 @@
 @media(max-width:1000px){
 	header img{
   		display: none;
+		width: 10px;
 	}
 	header{
 		Justify-content: center;
