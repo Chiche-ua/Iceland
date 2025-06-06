@@ -1,0 +1,39 @@
+@media(max-width:1000px){
+	.flag{
+  		display: none;
+	}
+	header{
+		Justify-content: center;
+		height: 200px;
+	}
+	.side{
+		display: none;
+	}
+	main{
+		Justify-content: center;
+	}
+	.text{
+		width: 100%;
+		Justify-content: center;
+		align-items: center;
+	}
+	article{
+		margin-left: 0;
+		border: solid 0px #fff;
+		border-bottom: solid 20px #fff;
+		border-top: solid 20px #fff;
+		border-radius: 0;
+		padding: 0;
+	}
+	nav{
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+	footer{
+		display: flex;
+		flex-direction: column;
+		Justify-content: center;
+		align-items: center;
+	}
+}

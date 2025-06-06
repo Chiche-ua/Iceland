@@ -1,0 +1,128 @@
+body{
+	margin: 0;
+  	font-family: Kurale;
+  	background-color: #00519d;
+}
+header{
+	background-image: url(../img/head.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom: solid 20px #dd1832; 
+	display: flex;
+	Justify-content: space-between;
+}
+h1{
+	margin: 0;
+	margin-left: 10%;
+	margin-top: 50px;
+	font-size: 100px;
+}
+header img{
+  	width: 33%;
+  	height: 300px;
+}
+.border{
+	border-bottom: solid 20px #fff;
+}
+main > img{
+	margin-top: 20px;
+	background-color: #dd1832;
+	border: solid 20px #fff;
+	border-right: 0px;
+	padding: 20px;
+	padding-right: 0px;
+  	border-radius: 28px;
+  	width: 45%;
+  	height: auto;
+}
+.text{
+	width: 45%;
+}
+nav{
+	padding: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+  	width: 50%;
+  	min-width: 300px;
+  	font-size: 32px;
+  	border-radius: 28px;
+  	background-color: #fff;
+}
+main{
+	display: flex;
+	flex-direction: row;
+ 	justify-content: space-between;
+ 	align-items: stretch;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ul{
+	margin: 0;
+	padding: 0;
+  	display: flex;
+	flex-direction: column;
+ 	align-items: center;
+}
+li{
+	list-style: none;
+	margin: 5px;
+}
+.mini_menu ul li div{
+	display: none;
+}
+.mini_menu ul{
+	display: none;
+}
+.mini_menu:hover > div{
+	display: none;
+}
+.mini_menu:hover{
+	border-radius: 28px;
+	background-color: lightgray;
+	display: flex;
+	flex-direction: column;
+ 	align-items: center;
+}
+.mini_menu:hover ul li div{
+	display: flex;
+}
+.mini_menu:hover ul{
+	display: flex;
+}
+article{
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 10px;	
+	background-color: #dd1832;
+	border: solid 20px #fff;
+	border-radius: 28px;
+  	width: 100%;
+  	font-size: 24px;
+}
+footer{
+	font-size: 24px;
+	padding: 10px;
+	margin-top: 20px;
+  	text-transform: uppercase;
+  	background-color: #dd1832;
+  	border-top: solid 20px #fff;
+}
+p{
+	margin: 0;
+}
+.li_unit {
+  	border-radius: 28px;
+  	background-color: #dd1832;
+  	width: 272px;
+  	height: 60px;
+  	display: flex;
+ 	align-items: center;
+ 	padding-left: 15px;
+}
+.li_unit img{
+	width: 50px;
+  	height: 50px;
+  	margin-right: 5px;
+}

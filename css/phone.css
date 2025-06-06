@@ -1,0 +1,13 @@
+@media(max-width:1000px){
+	main{
+		min-height: 100px;
+	}
+	p {
+		justify-content: center;
+  		margin-top: 25px;
+  		width: 100%;
+	}
+	.pick {
+		display: none;
+	}
+}
